@@ -12,22 +12,26 @@
 - Lietuva - 6b5d8dcee5a919e3e59e - 20 ženklų
 - lietuvosHerbas - 52552c487f108c0cb988 - 20 ženklų
 - !lietuvaH! - 83db69c6c478fc57c754 - 20 ženklų
-```
-2.Laiko matavimas:
-su konstitucija.txt - `Elapsed time(HashFunc): 0.544571 s`
-```
+
+2. Laiko matavimas:
+
+- su konstitucija.txt - `Elapsed time(HashFunc): 0.544571 s`
+
 
 ## Testiniai failai
 
 ### Failai su vienu ženklu
+```
 - oneDif.txt - 712e7b3bdeeacffb0293 - Elapsed time(HashFunc): 0.003206 s
 - oneDif2.txt - 80c10586c42e1b094bf2 - Elapsed time(HashFunc): 0.0006174 s
 ```
 ### Dideli failai
+```
 - longText.txt - a57a5ba4341fd2c93065 - Elapsed time(HashFunc): 0.0009966 s
 - longText2.txt - 17e60bda2ab9b3fa48f3 - Elapsed time(HashFunc): 0.0009982 s
 ```
 ### Skiriasi vienu ženklu
+```
 - sameBut.txt - 75b9135ff9bc2e4bae45 - Elapsed time(HashFunc): 0.0009998 s
 - sameBut.txt - 5baea1d7273be4cb33f0 - Elapsed time(HashFunc): 0.0009999 s
 ```
@@ -35,13 +39,9 @@ su konstitucija.txt - `Elapsed time(HashFunc): 0.544571 s`
 
 1. Su 1000000 porų, po 5 skirtingus ženklus - Random words collision test
 - Collisions found in word test: 0
-```
+
 2. Su 100000 porų, po 5 ženklus, kurių vienas sutampa - Similar words collision test
 - Collisions: 0
 - Minimum difference: 2.5
 - Maximum difference: 60
 - Average difference: 22.4691
-```
-
-
-
